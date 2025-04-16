@@ -1,0 +1,27 @@
+{
+  "name": "news-daily",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kz-boop/news-daily.git"
+  },
+  "author": "kz-boop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kz-boop/news-daily/issues"
+  },
+  "homepage": "https://github.com/kz-boop/news-daily#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@octokit/auth-action": "^5.1.1",
+    "@octokit/auth-app": "^7.1.5",
+    "@octokit/core": "^6.1.4",
+    "dayjs": "^1.11.13",
+    "feed": "^4.2.2",
+    "marked": "^15.0.7",
+    "timeago.js": "^4.0.2"
+  }
+}
